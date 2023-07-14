@@ -1,4 +1,4 @@
-# learning-react
+# learning-react 🚀 !!
 
 Learning react
 
@@ -40,3 +40,8 @@ Learning react
     "maintained node versions"
   ]
   ```
+
+# 03 - Laying the Foundation
+
+- React Functional component basics
+- JSX
