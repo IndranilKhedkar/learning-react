@@ -1,0 +1,99 @@
+.app {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.body-btn-container {
+  padding: 12px 18px 0px 0px;
+  margin-left: auto;
+}
+
+.filter {
+  display: flex;
+}
+
+.btn {
+  padding: 6px;
+  margin: 6px;
+}
+
+.search-box {
+  padding: 6px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid skyblue; */
+  background-color: white;
+}
+
+.logo {
+  margin: 12px;
+  width: 81px;
+  height: 81px;
+}
+
+.nav-items > ul {
+  display: flex;
+  padding: 0 50px;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.body {
+  /* border: 1px solid skyblue; */
+  background-color: aliceblue;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.restaurant-card {
+  margin: 6px;
+  padding: 6px;
+  height: 425px;
+  width: 223px;
+  /* border: 1px solid black; */
+  background-color: azure;
+  line-height: 1em;
+}
+
+.restaurant-card:hover {
+  background-color: rgb(197, 235, 235);
+  cursor: pointer;
+}
+
+.restaurant-logo {
+  width: 100%;
+  height: 50%;
+}
+
+.search {
+  margin: 6px;
+  padding: 6px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6px;
+}
+
+.shimmer-card {
+  width: 223px;
+  height: 300px;
+  background-color: rgb(223, 221, 221);
+  margin: 6px;
+  padding: 6px;
+}
+
+a {
+  text-decoration: none;
+}
