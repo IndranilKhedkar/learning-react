@@ -14,7 +14,6 @@ export class User extends React.Component {
       "https://api.github.com/users/indranilkhedkar"
     );
     const user = await response.json();
-    console.log(user);
     this.setState({ user: user });
   }
 

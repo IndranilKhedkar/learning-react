@@ -30,7 +30,6 @@ const RestaurantCard = ({
   imageId,
   costForTwo,
 }) => {
-  console.log({ name, cuisines, rating, deliveryTime, imageId });
   return (
     <div className="restaurant-card">
       <img
